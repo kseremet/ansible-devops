@@ -1,11 +1,11 @@
 [all:children]
-gce_config
+tower
 gitlab
 
-[gce_config]
+[tower]
 localhost
 
 [gitlab:children]
-tag_gitlab
+vmware_tag_application_gitlab
 
-[tag_gitlab]
+[vmware_tag_application_gitlab]
