@@ -1,7 +1,9 @@
 [all:children]
 gitlab
 
+[vmware_tag_application_gitlab]
+
 [gitlab:children]
 vmware_tag_application_gitlab
 
-[vmware_tag_application_gitlab]
+
