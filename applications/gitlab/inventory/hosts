@@ -1,9 +1,5 @@
 [all:children]
-tower
 gitlab
-
-[tower]
-localhost
 
 [gitlab:children]
 vmware_tag_application_gitlab
