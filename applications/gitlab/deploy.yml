@@ -1,5 +1,5 @@
 - name: "Deploy gitlab"
-  hosts: gitlab
+  hosts: vmware_tag_application_gitlab
   become: true
 
   tasks:
